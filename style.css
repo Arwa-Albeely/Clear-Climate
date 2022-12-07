@@ -1,0 +1,15 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+    #header {
+        background-position: center;    
+        background-repeat: no-repeat; 
+        background-size: cover; 
+         background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/2B08/production/_127561011_climate_5_cc_index_and_article_image_template_976-ncclimate_change_article_image_template_976-nc.png);
+         width:100vw;
+         height:100vh;
+    }
