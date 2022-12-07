@@ -1,36 +1,33 @@
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    }
-
-    body{
-        text-align: center;
-        background-color: forestgreen;
-    }
-    
-    #header {
-        background-position: center;    
-        background-repeat: no-repeat; 
-        background-size: cover; 
-         background-image: url();
-         width:100vw;
-         height:100vh;
-    }
-.container{
-    text-decoration: underline;
-    color: black;
+.main-nav {
+  margin-top: 55px;
+  background: #fff;
+  z-index: 9999;
 }
- .africa{
-list-style-type: none;
-text-align: center;
-gap: 5rem;
-color: white;
 
+.carousel-inner {
+  height: 300px;
 }
-ul :hover{
-color: white;}
-.icon{
-    text-align: center;
+
+.carousel-caption {
+  bottom: 65rem;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 128px 56px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: #fff;
+  z-index: -9999;
+  padding: 16px 32px
+}
+
+.footer-contacts {
+  margin-left: 16px;
 }
