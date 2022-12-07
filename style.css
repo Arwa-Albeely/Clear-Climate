@@ -1,15 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    }
-    
-    #header {
-        background-position: center;    
-        background-repeat: no-repeat; 
-        background-size: cover; 
-         background-image: url();
-         width:100vw;
-         height:100vh;
-    }
+#header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url();
+  width: 100vw;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 16px;
+}
