@@ -10,6 +10,13 @@
   bottom: 65rem;
 }
 
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 56px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
