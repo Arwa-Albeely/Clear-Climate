@@ -1,15 +1,24 @@
+.main-nav {
+  margin-top: 70px;
+}
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    }
-    
-    #header {
-        background-position: center;    
-        background-repeat: no-repeat; 
-        background-size: cover; 
-         background-image: url();
-         width:100vw;
-         height:100vh;
-    }
+.carousel-inner {
+  height: 300px;
+}
+
+.carousel-caption {
+  bottom: 65rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: #fff;
+  z-index: -9999;
+  padding: 16px 32px
+}
+
+.footer-contacts {
+  margin-left: 16px;
+}
