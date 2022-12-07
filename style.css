@@ -31,3 +31,7 @@ footer {
 .footer-contacts {
   margin-left: 16px;
 }
+
+  header {
+    background-image: url(https://d32ogoqmya1dw8.cloudfront.net/images/eslabs/weather/sky_clouds_456.jpg);
+  }
