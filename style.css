@@ -1,5 +1,7 @@
 .main-nav {
-  margin-top: 70px;
+  margin-top: 55px;
+  background: #fff;
+  z-index: 9999;
 }
 
 .carousel-inner {
@@ -14,7 +16,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin: 56px;
+  margin: 128px 56px;
 }
 
 footer {
