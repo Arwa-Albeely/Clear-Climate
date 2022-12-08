@@ -1,37 +1,78 @@
+*{
+    font-family: 'Fraunces', serif;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: #d2d6a8;
+}
+
 .main-nav {
-  margin-top: 55px;
-  background: #fff;
-  z-index: 9999;
-}
+    margin-top: 55px;
+    background: #d2d6a8;
+    z-index: 9999;
+  }
+  ul.nav li a{
+    
+   color: aliceblue;
+  }
+  
+ 
+  .page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 128px 56px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 
-.carousel-inner {
-  height: 300px;
-}
+    z-index: -9999;
+    padding: 16px 32px;
+    background-color: #1b2519;
+    color: white;
+  }
+  
+  .footer-contacts {
+    margin-left: 16px;
+    display: flex;
+   
 
-.carousel-caption {
-  bottom: 65rem;
-}
-
-.page-content {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin: 128px 56px;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  background: #fff;
-  z-index: -9999;
-  padding: 16px 32px
-}
-
-.footer-contacts {
-  margin-left: 16px;
-}
-
-  header {
-    background-image: url(https://d32ogoqmya1dw8.cloudfront.net/images/eslabs/weather/sky_clouds_456.jpg);
+  }
+  
+  .navbar-paragraphs {
+    max-width: 800px;
+    max-height: 540px;
+    padding-right: 100px;
+  }
+  .navbar-paragraphs1 {
+    
+    padding-right: 100px;
+  }
+  .col img {
+    height: 100%;
+    width: 100%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url();
+    width: 100vw;
+  }
+  
+  .page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px;
   }
