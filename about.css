@@ -7,3 +7,12 @@
 h2 {
   text-align: center;
 }
+
+.card-group {
+    gap: 36px;
+}
+
+.card-group a {
+    display: block;
+    text-align: right;
+}
