@@ -1,1 +1,9 @@
+.about-header-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
+h2 {
+  text-align: center;
+}
