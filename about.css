@@ -1,1 +1,18 @@
+.about-header-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
+h2 {
+  text-align: center;
+}
+
+.card-group {
+    gap: 36px;
+}
+
+.card-group a {
+    display: block;
+    text-align: right;
+}
